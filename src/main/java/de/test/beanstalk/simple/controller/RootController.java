@@ -9,7 +9,7 @@ public class RootController {
 
     @RequestMapping
     public ResponseEntity<String> awsHealthCheck(){
-        return ResponseEntity.ok("healthy_");
+        return ResponseEntity.ok("healthy");
     }
 
 }
